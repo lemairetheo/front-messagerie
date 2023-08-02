@@ -1,0 +1,12 @@
+/* Write your global styles here, in PostCSS syntax */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased; /* For Chrome and Safari */
+	-moz-osx-font-smoothing: grayscale; /* For Firefox on macOS */
+}
